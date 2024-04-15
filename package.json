@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.0-beta.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.22",
+    "nodemailer": "^6.9.12",
+    "yarn": "^1.22.10"
+  },
+  "name": "student-management-system-back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": ".\\node_modules\\.bin\\env-cmd -f .\\config\\dev.env nodemon .\\server\\index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
